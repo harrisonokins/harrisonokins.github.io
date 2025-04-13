@@ -1,40 +1,18 @@
 <ul class="social-media-list">
-  {%- if site.social.email -%}
-  <li>
-    <a href="mailto:{{ site.social.email }}">
-      <svg class="svg-icon">
-        <use xlink:href="{{ '/assets/social-icons.svg#email' | relative_url }}"></use>
-      </svg>
-      <span class="username">{{ site.social.email }}</span>
-    </a>
-  </li>
-  {%- endif -%}
-
-  {%- if site.social.github -%}
-  <li>
-    <a href="https://github.com/{{ site.social.github| cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use xlink:href="{{ '/assets/social-icons.svg#github' | relative_url }}"></use>
-      </svg>
-      <span class="username">{{ site.social.github| escape }}</span>
-    </a>
-  </li>
-  {%- endif -%}
-
-  {%- if site.social.linkedin -%}
-  <li>
-    <a href="https://www.linkedin.com/in/{{ site.social.linkedin| cgi_escape | escape }}">
-      <svg class="svg-icon">
-        <use xlink:href="{{ '/assets/social-icons.svg#linkedin' | relative_url }}"></use>
-      </svg>
-      <span class="username">{{ site.social.linkedin| escape }}</span>
-    </a>
-  </li>
-  {%- endif -%}
+  {% for network in site.data.social_networks %}
+    <li>
+      <a href="mailto:{{ network.value }}" title="{{ network.name }}">
+        <svg class="svg-icon">
+          <use xlink:href="{{ network.icon | relative_url }}"></use>
+        </svg>
+        <span class="username">{{ network.value }}</span>
+      </a>
+    </li>
+  {% endfor %}
 
   {%- if site.rss -%}
   <li>
-    <a href="{{ 'feed.xml' | relative_url }}">
+    <a href="{{ 'feed.xml' | relative_url }}" title="RSS">
       <svg class="svg-icon">
         <use xlink:href="{{ '/assets/social-icons.svg#rss' | relative_url }}"></use>
       </svg>

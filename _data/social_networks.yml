@@ -1,0 +1,9 @@
+- name: Email
+  value: sayhello@harrisonokins.com
+  icon: /assets/social-icons.svg#email
+- name: GitHub
+  value: harrisonokins
+  icon: /assets/social-icons.svg#github
+- name: LinkedIn
+  value: harrison-okins
+  icon: /assets/social-icons.svg#linkedin

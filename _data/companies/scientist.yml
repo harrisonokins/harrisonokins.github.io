@@ -1,0 +1,4 @@
+name: Scientist.com
+job_title: Principal Software Engineer
+description: Worked on a highly-regulated life sciences procurement platform used by the world’s top pharmaceutical companies. Converted a legacy Rails monolith to a multi-tenant architecture, transitioned from CouchDB to PostgreSQL, built an end-to-end test suite, and developed proprietary gems, APIs, and iOS/Android apps.
+start_date: 2016-09-01

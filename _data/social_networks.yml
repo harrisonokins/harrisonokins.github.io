@@ -1,9 +1,12 @@
 - name: Email
   value: sayhello@harrisonokins.com
+  link: mailto:sayhello@harrisonokins.com
   icon: /assets/social-icons.svg#email
 - name: GitHub
   value: harrisonokins
+  link: https://github.com/harrisonokins
   icon: /assets/social-icons.svg#github
 - name: LinkedIn
   value: harrison-okins
+  link: https://www.linkedin.com/in/harrison-okins
   icon: /assets/social-icons.svg#linkedin

@@ -1,7 +1,7 @@
 <ul class="social-media-list">
   {% for network in site.data.social_networks %}
     <li>
-      <a href="mailto:{{ network.value }}" title="{{ network.name }}">
+      <a href="{{ network.link }}" title="{{ network.name }}" target="_blank">
         <svg class="svg-icon">
           <use xlink:href="{{ network.icon | relative_url }}"></use>
         </svg>

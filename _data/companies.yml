@@ -1,0 +1,22 @@
+- name: Scientist.com
+  job_title: Principal Software Engineer
+  description: Worked on a monolithic Ruby on Rails application powering the world’s largest life-science marketplace. For over nearly a decade contributed to and led key initiatives across backend architecture, frontend design, DevOps, search, and marketing. Scaled the platform while driving cost savings, performance gains, and new product innovation.
+  start_date: 2016-09-01
+
+- name: Real Estate Ally
+  job_title: Application Developer
+  description: Designed and built a custom analytics and forecasting platform. Helped lead the UX/UI design and assisted on the technical implementation of a responsive web application tailored for market trend analysis, agent performance insights, and forecasting.
+  start_date: 2014-01-01
+  end_date: 2015-08-31
+
+- name: Webity
+  job_title: Web Developer
+  description: Provided end-to-end web development and design services for a diverse portfolio of clients across a multitude of industries. Delivered web, Android, and iOS solutions alongside bespoke brand identities and continuous support services.
+  start_date: 2012-03-01
+  end_date: 2015-08-31
+
+- name: Cengage Learning
+  job_title: Quality Assurance Analyst
+  description: Assisted in the production of digital learning products and textbooks by proofreading algorithms and MathML code for accuracy, formatting consistency, and proper semantic structure. Collaborated with instructional designers to resolve errors and ensure compliance with established standards.
+  start_date: 2011-07-01
+  end_date: 2012-03-30

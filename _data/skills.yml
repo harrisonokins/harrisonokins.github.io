@@ -1,0 +1,31 @@
+- name: Languages
+  examples:
+    - Ruby
+    - JavaScript
+    - PHP
+    - CSS/SASS/LESS
+
+- name: Frameworks
+  examples:
+    - Ruby on Rails
+    - Django
+    
+- name: Databases
+  examples:
+    - PostgreSQL
+    - MySQL
+    - CouchDB
+    - SQLite
+
+- name: Graphics
+  examples:
+    - Sketch
+    - Illustrator
+    - Photoshop
+
+- name: Miscellaneous
+  examples:
+    - Elasticsearch
+    - git
+    - Docker
+    - Jekyll

@@ -10,3 +10,4 @@ node_modules/
 
 # Ignore built 11ty files
 _site/
+.plugin-clean/

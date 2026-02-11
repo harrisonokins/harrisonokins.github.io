@@ -1,0 +1,11 @@
+/*
+ * This stylesheet acts as Tailwind's configuration file and is intended to be
+ * processed by the Tailwind CLI (https://tailwindcss.com/blog/standalone-cli)
+ *
+ * To generate a stylesheet of Tailwind utility classes used by this site, run
+ * the following command from the project root:
+ *
+ * `./tailwindcss -i _sass/tailwind.css -o assets/tailwind.css --watch`
+ */
+
+@import "tailwindcss";

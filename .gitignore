@@ -11,3 +11,6 @@ Gemfile.lock
 /.sass-cache/
 /.jekyll-cache/
 .jekyll-metadata
+
+# Ignore the Tailwind CSS standalone CLI
+tailwindcss

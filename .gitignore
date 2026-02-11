@@ -1,7 +1,13 @@
-_site
-.DS_Store
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
+# Ignore Bundler folders & files
+/.bundle/
+/vendor/
 Gemfile.lock
-vendor
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Jekyll folders & files
+/_site/
+/.sass-cache/
+/.jekyll-cache/
+.jekyll-metadata

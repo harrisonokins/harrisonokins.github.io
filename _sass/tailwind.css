@@ -8,4 +8,20 @@
  * `./tailwindcss -i _sass/tailwind.css -o assets/tailwind.css --watch`
  */
 
+/*
+ * Google Fonts must be loaded first; see:
+ * https://tailwindcss.com/docs/font-family#customizing-your-theme
+ */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+/*
+ * Then we can load Tailwind
+ */
 @import "tailwindcss";
+
+/*
+ * Finally, we can customize our theme
+ */
+@theme {
+  --font-display: "Jura", sans-serif;
+}

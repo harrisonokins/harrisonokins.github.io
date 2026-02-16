@@ -7,7 +7,7 @@ layout: default
 
 <div class="container mx-auto">
   <section class="flex flex-col h-screen justify-center">
-    <ul class="font-display leading-5 uppercase columns-1 gap-4 sm:columns-3">
+    <ul class="font-display leading-5 uppercase grid auto-cols-auto grid-flow-col gap-8">
       <li class="mb-8">
         <blockquote>
           <span class="text-2xl/5 font-thin text-gray-500">Quick and</span>

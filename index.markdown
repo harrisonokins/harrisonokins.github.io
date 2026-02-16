@@ -7,24 +7,24 @@ layout: default
 
 <div class="container mx-auto">
   <section class="flex flex-col h-screen justify-center">
-    <ul class="font-display uppercase columns-1 gap-4 sm:columns-3">
+    <ul class="font-display leading-5 uppercase columns-1 gap-4 sm:columns-3">
       <li class="mb-8">
         <blockquote>
-          <span class="text-2xl font-thin text-gray-500">Quick and</span>
+          <span class="text-2xl/5 font-thin text-gray-500">Quick and</span>
           <br>
           <strong class="text-4xl border-b-3">Versatile</strong>
         </blockquote>
       </li>
       <li class="mb-8">
         <blockquote>
-          <span class="text-2xl font-thin text-gray-500">More</span>
+          <span class="text-2xl/5 font-thin text-gray-500">More</span>
           <br>
           <strong class="text-4xl border-b-3">Power</strong>
         </blockquote>
       </li>
       <li class="mb-8">
         <blockquote>
-          <span class="text-2xl font-thin text-gray-500">10<span class="lowercase">x</span> the</span>
+          <span class="text-2xl/5 font-thin text-gray-500">10<span class="lowercase">x</span> the</span>
           <br>
           <strong class="text-4xl border-b-3">Suction</strong>
         </blockquote>

@@ -22,8 +22,11 @@
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --spacing: 0.25rem;
+    --container-3xs: 16rem;
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-6xl: 3.75rem;
@@ -209,11 +212,23 @@
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
+  }
   .flex {
     display: flex;
   }
   .h-screen {
     height: 100vh;
+  }
+  .columns-1 {
+    columns: 1;
+  }
+  .columns-3 {
+    columns: 3;
+  }
+  .columns-3xs {
+    columns: var(--container-3xs);
   }
   .flex-col {
     flex-direction: column;
@@ -223,6 +238,15 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .justify-items-center {
+    justify-items: center;
+  }
+  .justify-items-center-safe {
+    justify-items: safe center;
+  }
+  .gap-4 {
+    gap: calc(var(--spacing) * 4);
   }
   .space-x-4 {
     :where(& > :not(:last-child)) {
@@ -240,6 +264,14 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
+  }
+  .border-b-2 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 2px;
+  }
+  .border-b-3 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 3px;
   }
   .border-gray-300 {
     border-color: var(--color-gray-300);
@@ -263,6 +295,10 @@
   }
   .font-display {
     font-family: var(--font-display);
+  }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
   }
   .text-4xl {
     font-size: var(--text-4xl);
@@ -314,6 +350,12 @@
   .text-slate-700 {
     color: var(--color-slate-700);
   }
+  .lowercase {
+    text-transform: lowercase;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
   .italic {
     font-style: italic;
   }
@@ -325,6 +367,11 @@
       @media (hover: hover) {
         text-decoration-line: underline;
       }
+    }
+  }
+  .sm\:columns-3 {
+    @media (width >= 40rem) {
+      columns: 3;
     }
   }
   .dark\:text-sky-400 {

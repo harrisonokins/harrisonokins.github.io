@@ -7,6 +7,36 @@ layout: default
 
 <div class="container mx-auto">
   <section class="flex flex-col h-screen justify-center">
+    <ul class="font-display uppercase columns-1 gap-4 sm:columns-3">
+      <li class="mb-8">
+        <blockquote>
+          <span class="text-2xl font-thin text-gray-500">Quick and</span>
+          <br>
+          <strong class="text-4xl border-b-3">Versatile</strong>
+        </blockquote>
+      </li>
+      <li class="mb-8">
+        <blockquote>
+          <span class="text-2xl font-thin text-gray-500">More</span>
+          <br>
+          <strong class="text-4xl border-b-3">Power</strong>
+        </blockquote>
+      </li>
+      <li class="mb-8">
+        <blockquote>
+          <span class="text-2xl font-thin text-gray-500">10<span class="lowercase">x</span> the</span>
+          <br>
+          <strong class="text-4xl border-b-3">Suction</strong>
+        </blockquote>
+      </li>
+    </ul>
+    <p class="text-xl">These are all terms that have been used to describe vacuums.</p>
+    <p class="text-xl">I'm not a vacuum.</p>
+    <p class="text-xl">I'm a human being.</p>
+    <p class="text-xl">I'm <strong class="font-display">Harrison</strong></p>
+  </section>
+
+  <section class="flex flex-col h-screen justify-center">
     <h2 class="text-6xl font-display">
       <span class="flex items-center space-x-4">
         <span class="px-3 py-4 border border-gray-300 rounded-lg">3</span>

@@ -1,11 +1,11 @@
-<ul>
+<ul class="flex space-x-4">
   {% for network in site.data.social_networks %}
     <li>
-      <a href="{{ network.link }}" title="{{ network.name }}" target="_blank">
-        <svg>
+      <a href="{{ network.link }}" title="{{ network.name }}" target="_blank" class="text-gray-600 hover:text-sky-400">
+        <svg class="size-6 fill-current">
           <use xlink:href="{{ network.icon | relative_url }}"></use>
         </svg>
-        <span>{{ network.value }}</span>
+        <span class="sr-only">{{ network.value }}</span>
       </a>
     </li>
   {% endfor %}

@@ -7,6 +7,8 @@ layout: default
 
 <section class="border-b-14 border-black bg-neutral-100 relative">
   <svg class="absolute left-auto right-0 z-1 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="88,0 100,0 100,100 0,100" class="fill-slate-200"/>
+    <polygon points="89,0 100,0 100,100 0,100" class="fill-slate-300"/>
     <polygon points="90,0 100,0 100,100 0,100" class="fill-neutral-300"/>
   </svg>
   <div class="absolute left-auto right-0 z-2 w-1/2 h-full">

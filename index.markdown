@@ -45,7 +45,7 @@ layout: default
             <span class="text-3xl font-thin">
               hours spent delivering
               <br>
-              <strong>Business Value<sup>™</sup></strong>
+              <strong class="font-semibold">Business Value<sup>℠</sup></strong>
             </span>
           </span>
         </h2>

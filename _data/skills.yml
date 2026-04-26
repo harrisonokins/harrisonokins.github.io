@@ -33,6 +33,9 @@
     - name: Jekyll
       icon: /assets/skill-icons.svg#jekyll
       color: fill-[#CC0000]
+    - name: WordPress
+      icon: /assets/skill-icons.svg#wordpress
+      color: fill-[#21759B]
 
 - name: Data & Search
   examples:

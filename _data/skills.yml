@@ -1,31 +1,68 @@
 - name: Languages
   examples:
-    - Ruby
-    - JavaScript
-    - PHP
-    - CSS/SASS/LESS
+    - name: Ruby
+      icon: /assets/skill-icons.svg#ruby
+      color: "#CC342D"
+    - name: JavaScript
+      icon: /assets/skill-icons.svg#javascript
+      color: "#F7DF1E"
+    - name: PHP
+      icon: /assets/skill-icons.svg#php
+      color: "#777BB4"
+    - name: CSS
+      icon: /assets/skill-icons.svg#css
+      color: "#663399"
 
 - name: Frameworks
   examples:
-    - Ruby on Rails
-    - Django
-    
+    - name: Ruby on Rails
+      icon: /assets/skill-icons.svg#rubyonrails
+      color: "#D30001"
+    - name: Django
+      icon: /assets/skill-icons.svg#django
+      color: "#092E20"
+
 - name: Databases
   examples:
-    - PostgreSQL
-    - MySQL
-    - CouchDB
-    - SQLite
+    - name: PostgreSQL
+      icon: /assets/skill-icons.svg#postgresql
+      color: "#4169E1"
+    - name: MySQL
+      icon: /assets/skill-icons.svg#mysql
+      color: "#4479A1"
+    - name: CouchDB
+      icon: /assets/skill-icons.svg#couchdb
+      color: "#E42528"
+    - name: SQLite
+      icon: /assets/skill-icons.svg#sqlite
+      color: "#003B57"
 
 - name: Graphics
   examples:
-    - Sketch
-    - Illustrator
-    - Photoshop
+    - name: Sketch
+      icon: /assets/skill-icons.svg#sketch
+      color: "#F7B500"
+    - name: Illustrator
+      icon: /assets/skill-icons.svg#illustrator
+      color: "#FF9A00"
+    - name: Photoshop
+      icon: /assets/skill-icons.svg#photoshop
+      color: "#31A8FF"
+    - name: Figma
+      icon: /assets/skill-icons.svg#figma
+      color: "#F24E1E"
 
 - name: Miscellaneous
   examples:
-    - Elasticsearch
-    - git
-    - Docker
-    - Jekyll
+    - name: Elasticsearch
+      icon: /assets/skill-icons.svg#elasticsearch
+      color: "#005571"
+    - name: git
+      icon: /assets/skill-icons.svg#git
+      color: "#F05032"
+    - name: Docker
+      icon: /assets/skill-icons.svg#docker
+      color: "#2496ED"
+    - name: Jekyll
+      icon: /assets/skill-icons.svg#jekyll
+      color: "#CC0000"

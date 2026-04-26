@@ -60,7 +60,7 @@
 
 - name: Frontend & Styling
   examples:
-    - name: HTML
+    - name: HTML (#humblebrag)
       icon: /assets/skill-icons.svg#html5
       color: fill-[#E34F26]
     - name: CSS

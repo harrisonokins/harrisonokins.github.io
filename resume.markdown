@@ -40,7 +40,7 @@ hero:
 <section class="my-8">
   <div class="container mx-auto">
     <div class="grid grid-cols-4">
-      <div class="col-span-4 sm:col-span-1 text-right">
+      <div class="col-span-4 sm:col-span-1 sm:text-right px-8 mb-4">
         <h2 class="text-xl font-light border-b-2 border-dotted inline-block pb-2 border-gray-400">
           My
           <span class="font-bold">Skills</span>

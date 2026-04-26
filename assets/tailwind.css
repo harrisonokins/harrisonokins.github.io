@@ -710,6 +710,11 @@
       grid-column: span 3 / span 3;
     }
   }
+  .sm\:text-right {
+    @media (width >= 40rem) {
+      text-align: right;
+    }
+  }
   .dark\:text-sky-400 {
     @media (prefers-color-scheme: dark) {
       color: var(--color-sky-400);

@@ -6,9 +6,15 @@
     - name: JavaScript
       icon: /assets/skill-icons.svg#javascript
       color: fill-[#F7DF1E]
+    - name: TypeScript
+      icon: /assets/skill-icons.svg#typescript
+      color: fill-[#3178C6]
     - name: PHP
       icon: /assets/skill-icons.svg#php
       color: fill-[#777BB4]
+    - name: Python
+      icon: /assets/skill-icons.svg#python
+      color: fill-[#3776AB]
     - name: Fortran
       icon: /assets/skill-icons.svg#fortran
       color: fill-[#6f4c90]
@@ -45,15 +51,24 @@
     - name: Elasticsearch
       icon: /assets/skill-icons.svg#elasticsearch
       color: fill-[#005571]
+    - name: Redis
+      icon: /assets/skill-icons.svg#redis
+      color: fill-[#FF4438]
 
 - name: Frontend & Styling
   examples:
+    - name: HTML
+      icon: /assets/skill-icons.svg#html5
+      color: fill-[#E34F26]
     - name: CSS
       icon: /assets/skill-icons.svg#css
       color: fill-[#663399]
     - name: Sass
       icon: /assets/skill-icons.svg#sass
       color: fill-[#cf649a]
+    - name: Tailwind CSS
+      icon: /assets/skill-icons.svg#tailwindcss
+      color: fill-[#06B6D4]
 
 - name: Design
   examples:

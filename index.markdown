@@ -16,16 +16,16 @@ hero:
 <section>
   <div class="container mx-auto">
     <div class="flex flex-col h-screen justify-center items-center">
-      <div>
+      <div class="px-8">
         <h2>
-          <span class="flex items-center space-x-4 flex-wrap">
-            <span class="text-6xl leading-[2] font-display">
-              <span class="px-3 py-4 border border-gray-300 rounded-lg">3</span>
-              <span class="px-3 py-4 border border-gray-300 rounded-lg">1</span>
+          <span class="flex items-center gap-4 flex-wrap">
+            <span class="text-[min(10vw,3.75rem)] leading-[2] font-display">
+              <span class="px-[0.25em] py-[0.35em] border border-gray-300 rounded-lg">3</span>
+              <span class="px-[0.25em] py-[0.35em] border border-gray-300 rounded-lg">1</span>
               <span class="">,</span>
-              <span class="px-3 py-4 border border-gray-300 rounded-lg">0</span>
-              <span class="px-3 py-4 border border-gray-300 rounded-lg">8</span>
-              <span class="px-3 py-4 border border-gray-300 rounded-lg">1</span>
+              <span class="px-[0.25em] py-[0.35em] border border-gray-300 rounded-lg">0</span>
+              <span class="px-[0.25em] py-[0.35em] border border-gray-300 rounded-lg">8</span>
+              <span class="px-[0.25em] py-[0.35em] border border-gray-300 rounded-lg">1</span>
             </span>
             <span class="text-3xl font-thin">
               hours spent delivering

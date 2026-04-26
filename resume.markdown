@@ -40,19 +40,24 @@ hero:
 <section class="my-8">
   <div class="container mx-auto">
     <div class="grid grid-cols-4">
-      <div class="col-span-4 sm:col-span-1 text-center">
-        <h2>Skills</h2>
+      <div class="col-span-4 sm:col-span-1 text-right">
+        <h2 class="text-xl font-light border-b-2 border-dotted inline-block pb-2 border-gray-400">
+          My
+          <span class="font-bold">Skills</span>
+        </h2>
       </div>
       <div class="col-span-4 sm:col-span-3 px-8">
-        <ul>
+        <ul class="flex flex-col gap-8">
             {% for skill in site.data.skills %}
                 <li>
-                    <strong>{{ skill.name }}</strong>
-                    {% for example in skill.examples %}
-                        <ul>
-                            <li>{{ example }}</li>
-                        </ul>
-                    {% endfor %}
+                    <h4 class="font-medium mb-2">{{ skill.name }}</h4>
+                    <ul class="flex flex-wrap gap-4">
+                      {% for example in skill.examples %}
+                        <li class="border border-gray-200 rounded-sm px-4 py-2 font-light text-sm shadow-md/5">
+                          {{ example }}
+                        </li>
+                      {% endfor %}
+                    </ul>
                 </li>
             {% endfor %}
         </ul>

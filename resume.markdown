@@ -54,7 +54,7 @@ hero:
                     <ul class="flex flex-wrap gap-4">
                       {% for example in skill.examples %}
                         <li class="flex items-center gap-3 border border-gray-200 rounded-sm px-4 py-2 font-light text-sm shadow-md/5">
-                          <svg class="size-5 fill-[{{ example.color }}]" aria-hidden="true" focusable="false">
+                          <svg class="size-5 {{ example.color }}" aria-hidden="true" focusable="false">
                             <use xlink:href="{{ example.icon | relative_url }}"></use>
                           </svg>
                           {{ example.name }}

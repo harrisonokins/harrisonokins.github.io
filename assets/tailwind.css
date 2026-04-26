@@ -403,14 +403,26 @@
   .bg-neutral-100 {
     background-color: var(--color-neutral-100);
   }
+  .fill-\[\#\#cf649a\] {
+    fill: ##cf649a;
+  }
+  .fill-\[\#\#ff671d\] {
+    fill: ##ff671d;
+  }
+  .fill-\[\#0c4b33\] {
+    fill: #0c4b33;
+  }
   .fill-\[\#003B57\] {
     fill: #003B57;
   }
-  .fill-\[\#6B7280\] {
-    fill: #6B7280;
+  .fill-\[\#6f4c90\] {
+    fill: #6f4c90;
   }
   .fill-\[\#31A8FF\] {
     fill: #31A8FF;
+  }
+  .fill-\[\#77e8b9\] {
+    fill: #77e8b9;
   }
   .fill-\[\#092E20\] {
     fill: #092E20;
@@ -459,6 +471,72 @@
   }
   .fill-\[\#FF9A00\] {
     fill: #FF9A00;
+  }
+  .fill-\[\#cf649a\] {
+    fill: #cf649a;
+  }
+  .fill-\[\#ff671d\] {
+    fill: #ff671d;
+  }
+  .fill-\[003B57\] {
+    fill: 003B57;
+  }
+  .fill-\[6f4c90\] {
+    fill: 6f4c90;
+  }
+  .fill-\[31A8FF\] {
+    fill: 31A8FF;
+  }
+  .fill-\[77e8b9\] {
+    fill: 77e8b9;
+  }
+  .fill-\[092E20\] {
+    fill: 092E20;
+  }
+  .fill-\[777BB4\] {
+    fill: 777BB4;
+  }
+  .fill-\[2496ED\] {
+    fill: 2496ED;
+  }
+  .fill-\[4169E1\] {
+    fill: 4169E1;
+  }
+  .fill-\[4479A1\] {
+    fill: 4479A1;
+  }
+  .fill-\[005571\] {
+    fill: 005571;
+  }
+  .fill-\[663399\] {
+    fill: 663399;
+  }
+  .fill-\[CC0000\] {
+    fill: CC0000;
+  }
+  .fill-\[CC342D\] {
+    fill: CC342D;
+  }
+  .fill-\[D30001\] {
+    fill: D30001;
+  }
+  .fill-\[E42528\] {
+    fill: E42528;
+  }
+  .fill-\[F7B500\] {
+    fill: F7B500;
+  }
+  .fill-\[F7DF1E\] {
+    fill: F7DF1E;
+  }
+  .fill-\[F24E1E\] {
+    fill: F24E1E;
+  }
+  .fill-\[F05032\] {
+    fill: F05032;
+  }
+  .fill-\[FF9A00\] {
+    fill: FF9A00;
   }
   .fill-current {
     fill: currentcolor;

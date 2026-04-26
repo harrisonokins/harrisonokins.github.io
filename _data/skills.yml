@@ -9,9 +9,6 @@
     - name: PHP
       icon: /assets/skill-icons.svg#php
       color: fill-[#777BB4]
-    - name: CSS
-      icon: /assets/skill-icons.svg#css
-      color: fill-[#663399]
     - name: Fortran
       icon: /assets/skill-icons.svg#fortran
       color: fill-[#6f4c90]
@@ -27,8 +24,11 @@
     - name: Stimulus
       icon: /assets/skill-icons.svg#stimulus
       color: fill-[#77e8b9]
+    - name: Jekyll
+      icon: /assets/skill-icons.svg#jekyll
+      color: fill-[#CC0000]
 
-- name: Databases
+- name: Data & Search
   examples:
     - name: PostgreSQL
       icon: /assets/skill-icons.svg#postgresql
@@ -42,9 +42,24 @@
     - name: SQLite
       icon: /assets/skill-icons.svg#sqlite
       color: fill-[#003B57]
+    - name: Elasticsearch
+      icon: /assets/skill-icons.svg#elasticsearch
+      color: fill-[#005571]
 
-- name: Graphics
+- name: Frontend & Styling
   examples:
+    - name: CSS
+      icon: /assets/skill-icons.svg#css
+      color: fill-[#663399]
+    - name: Sass
+      icon: /assets/skill-icons.svg#sass
+      color: fill-[#cf649a]
+
+- name: Design
+  examples:
+    - name: Figma
+      icon: /assets/skill-icons.svg#figma
+      color: fill-[#F24E1E]
     - name: Sketch
       icon: /assets/skill-icons.svg#sketch
       color: fill-[#F7B500]
@@ -54,27 +69,15 @@
     - name: Photoshop
       icon: /assets/skill-icons.svg#photoshop
       color: fill-[#31A8FF]
-    - name: Figma
-      icon: /assets/skill-icons.svg#figma
-      color: fill-[#F24E1E]
 
-- name: Miscellaneous
+- name: DevOps & Tooling
   examples:
-    - name: Elasticsearch
-      icon: /assets/skill-icons.svg#elasticsearch
-      color: fill-[#005571]
-    - name: git
-      icon: /assets/skill-icons.svg#git
-      color: fill-[#F05032]
     - name: Docker
       icon: /assets/skill-icons.svg#docker
       color: fill-[#2496ED]
-    - name: Jekyll
-      icon: /assets/skill-icons.svg#jekyll
-      color: fill-[#CC0000]
-    - name: Sass
-      icon: /assets/skill-icons.svg#sass
-      color: fill-[#cf649a]
+    - name: git
+      icon: /assets/skill-icons.svg#git
+      color: fill-[#F05032]
     - name: Grafana
       icon: /assets/skill-icons.svg#grafana
       color: fill-[#ff671d]

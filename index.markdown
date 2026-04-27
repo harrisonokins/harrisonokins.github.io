@@ -49,7 +49,7 @@ hero:
 
 <section class="bg-black mb-8">
   <div class="container mx-auto">
-    <div class="flex min-h-screen justify-center items-center">
+    <div class="flex min-h-screen justify-center items-center px-8">
       <div class="flex flex-col sm:flex-row gap-8">
         <div>
           <h2 class="text-xl font-light text-white border-b-2 border-dotted inline-block pb-2 border-white">

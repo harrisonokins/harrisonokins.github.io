@@ -8,7 +8,9 @@ hero:
     - Whimsy.
     - Work.
     - I'm busy.
-  image_class: bg-[url(/assets/heroes/)]
+  image:
+    src: /assets/many-hats.jpeg
+    alt: Harrison, literally wearing many hats.
 ---
 
 {% include hero.html %}

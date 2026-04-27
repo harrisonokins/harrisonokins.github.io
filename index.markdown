@@ -9,7 +9,9 @@ hero:
     - Designer.
     - Dork.
     - I'm Harrison.
-  image_class: bg-[url(/assets/heroes/)]
+  image:
+    src: /assets/harrison-in-2026.jpeg
+    alt: Harrison, genuinely smiling (see the wrinkles around the eyes) in January 2026.
 ---
 
 {% include hero.html %}
@@ -59,7 +61,7 @@ hero:
           <p class="mb-8"><strong>I thrive on chaos.</strong></p>
           <p class="mb-8">With over a decade-and-a-half of experience, I bring many things to the table, including tacos.</p>
           <p class="mb-8">I offer a variety of expertise in many topics. Hard and soft skills are my specialty, much like taco shells.</p>
-          <img src="{{ '/assets/harrison-in-2026.jpeg' | relative_url }}" alt="Harrison Okins, genuinely smiling (see the wrinkles around the eyes) in January 2026." class="border border-3 rounded">
+          <img src="{{ '/assets/that-pose-is-a-bit-much.jpeg' | relative_url }}" alt="Harrison, sporting a peculiar sock choice, poses in front of a heart-shaped flower arrangement." class="border border-3 rounded">
         </div>
       </div>
     </div>

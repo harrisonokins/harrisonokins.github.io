@@ -760,6 +760,9 @@
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
+  }
   .py-\[0\.35em\] {
     padding-block: 0.35em;
   }

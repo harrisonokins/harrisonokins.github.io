@@ -16,7 +16,7 @@ hero:
 
 <section>
   <div class="container mx-auto">
-    <div class="flex flex-col h-screen justify-center items-center">
+    <div class="flex flex-col min-h-screen justify-center items-center">
       <div class="px-8">
         <h2>
           <span class="flex items-center gap-4 flex-wrap">
@@ -47,7 +47,7 @@ hero:
 
 <section class="bg-black mb-8">
   <div class="container mx-auto">
-    <div class="flex h-screen justify-center items-center">
+    <div class="flex min-h-screen justify-center items-center">
       <div class="flex flex-col sm:flex-row gap-8">
         <div>
           <h2 class="text-xl font-light text-white border-b-2 border-dotted inline-block pb-2 border-white">

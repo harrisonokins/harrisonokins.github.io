@@ -43,3 +43,24 @@ hero:
     </div>
   </div>
 </section>
+
+<section class="bg-black mb-8">
+  <div class="container mx-auto">
+    <div class="flex h-screen justify-center items-center">
+      <div class="flex flex-col sm:flex-row gap-8">
+        <div>
+          <h2 class="text-xl font-light text-white border-b-2 border-dotted inline-block pb-2 border-white">
+            About
+            <span class="font-bold">Me</span>
+          </h2>
+        </div>
+        <div class="rounded bg-white p-4 max-w-sm">
+          <p class="mb-8"><strong>I thrive on chaos.</strong></p>
+          <p class="mb-8">With over a decade-and-a-half of experience, I bring many things to the table, including tacos.</p>
+          <p class="mb-8">I offer a variety of expertise in many topics. Hard and soft skills are my specialty, much like taco shells.</p>
+          <img src="{{ '/assets/harrison-in-2026.jpeg' | relative_url }}" alt="Harrison Okins, genuinely smiling (see the wrinkles around the eyes) in January 2026." class="border border-3 rounded">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

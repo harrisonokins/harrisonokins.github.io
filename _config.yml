@@ -21,10 +21,10 @@
 title: Harrison Okins
 tagline: Code With Civility
 description: >- # this means to ignore newlines until "baseurl:"
-  I am Harrison, a software engineer, casual gamer, avid reader, and
+  I am Harrison: a software engineer, casual gamer, avid reader, and
   amateur pub trivia enthusiast.
 baseurl: "" # the subpath of your site, e.g. /blog
-logo: /assets/logo.png
+logo: /favicon.svg
 url: "https://www.harrisonokins.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings

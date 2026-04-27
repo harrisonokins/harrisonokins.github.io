@@ -40,7 +40,7 @@ hero:
   </div>
 </section>
 
-<section class="my-8">
+<section class="my-16">
   <div class="container mx-auto">
     <div class="grid grid-cols-4">
       <div class="col-span-4 sm:col-span-1 sm:text-right px-8 mb-4">

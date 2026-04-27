@@ -9,6 +9,7 @@ hero:
     - Designer.
     - Dork.
     - I'm Harrison.
+  image_class: bg-[url(/assets/heroes/)]
 ---
 
 {% include hero.html %}

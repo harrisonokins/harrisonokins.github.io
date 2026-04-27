@@ -1,18 +1,6 @@
-<section class="border-b-14 border-black bg-neutral-100 relative">
-  <svg class="absolute left-auto right-0 z-1 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-    <polygon points="88,0 100,0 100,100 0,100" class="fill-slate-200"/>
-    <polygon points="89,0 100,0 100,100 0,100" class="fill-slate-300"/>
-    <polygon points="90,0 100,0 100,100 0,100" class="fill-neutral-300"/>
-  </svg>
-
-  {% if page.hero.image %}
-    <div class="absolute left-auto right-0 z-2 w-1/2 h-full">
-      <img src="{{ page.hero.image | relative_url }}" alt="{{ page.hero.image_alt | default: '' }}" class="absolute bottom-0 right-0">
-    </div>
-  {% endif %}
-
+<section class="border-b-14 border-black bg-neutral-100 bg-bottom-right bg-contain bg-no-repeat {{ page.hero.image_class }}">
   <div class="container mx-auto relative z-2">
-    <div class="w-1/2 px-8">
+    <div class="px-8">
       <div class="flex flex-col h-screen justify-center text-3xl">
         <ul>
           {% assign headline_classes = 'font-thin|font-light|font-medium' | split: '|' %}

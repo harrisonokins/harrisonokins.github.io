@@ -8,6 +8,7 @@ hero:
     - Whimsy.
     - Work.
     - I'm busy.
+  image_class: bg-[url(/assets/heroes/)]
 ---
 
 {% include hero.html %}

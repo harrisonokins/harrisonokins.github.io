@@ -1,7 +1,7 @@
 <section class="border-b-14 border-black bg-neutral-100 bg-bottom-right bg-contain bg-no-repeat {{ page.hero.image_class }}">
   <div class="container mx-auto relative z-2">
     <div class="px-8">
-      <div class="flex flex-col h-screen justify-center text-3xl">
+      <div class="flex flex-row items-center justify-between min-h-screen pt-20 gap-12 text-3xl">
         <ul>
           {% assign headline_classes = 'font-thin|font-light|font-medium' | split: '|' %}
           {% for item in page.hero.headlines %}
@@ -9,6 +9,15 @@
             <li class="{{ item_class }}">{{ item }}</li>
           {% endfor %}
         </ul>
+        <div class="rotate-5 max-w-85 xs:hidden">
+          <div class="rounded bg-white shadow-xl p-4 pb-10 flex flex-col items-center">
+            <img
+              src="{{ '/assets/harrison-in-2026.jpeg' | relative_url }}"
+              alt="Harrison Okins, genuinely smiling (see the wrinkles around the eyes) in January 2026."
+              class="border border-3 rounded mb-8"
+            >
+          </div>
+        </div>
       </div>
     </div>
   </div>
